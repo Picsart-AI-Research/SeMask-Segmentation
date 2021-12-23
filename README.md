@@ -1,4 +1,4 @@
-# SeMask Segmentation
+# SeMask: Semantically Masked Transformers
 
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
 
