@@ -14,9 +14,9 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 
 ### ADE20K
 
-| Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config |
-|   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |
-| SeMask-L MaskFormer | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 54.75  | 56.15 | 219M | [config](configs/ade20k-150/semask_swin/maskformer_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) |
+| Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config | Checkpoint |
+|   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |    :---:   |
+| SeMask-L MaskFormer | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 54.75  | 56.15 | 219M | [config](configs/ade20k-150/semask_swin/maskformer_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | TBD |
 
 ## 2. Setup Instructions
 
