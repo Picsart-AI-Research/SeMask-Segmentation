@@ -10,6 +10,8 @@
 
 [Jitesh Jain](https://praeclarumjj3.github.io/), [Anukriti Singh](https://anukritisinghh.github.io/), [Nikita Orlov](https://www.linkedin.com/in/nukich74/), [Zilong Huang](https://speedinghzl.github.io/), [Jiachen Li](https://chrisjuniorli.github.io/), [Steven Walton](https://stevenwalton.github.io/about/), [Humphrey Shi](https://www.humphreyshi.com/home)
 
+[[`arXiv`](https://arxiv.org/abs/2112.12782)] [[`pdf`](https://arxiv.org/pdf/2112.12782.pdf)] [[`BibTeX`](#3-citing-semask)]
+
 This repo contains the code for our paper **SeMask: Semantically Masked Transformers for Semantic Segmentation**.
 
 <img src="images/semask.svg" alt='semask' height='600px'>
@@ -17,7 +19,7 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 ## Contents
 1. [Results](#1-results)
 2. [Setup Instructions](#2-setup-instructions)
-3. [Citing SeMask](#4-citing-semask)
+3. [Citing SeMask](#3-citing-semask)
 
 ## 1. Results
 
@@ -69,11 +71,11 @@ We provide the codebase with SeMask incorporated into various models. Please che
 ## 3. Citing SeMask
 
 ```BibTeX
-@article{jain2022semask,
+@article{jain2021semask,
   title={SeMask: Semantically Masking Transformer Backbones for Effective Semantic Segmentation},
   author={Jitesh Jain and Anukriti Singh and Nikita Orlov and Zilong Huang and Jiachen Li and Steven Walton and Humphrey Shi},
-  journal={arXiv preprint arXiv:...},
-  year={2022}
+  journal={arXiv},
+  year={2021}
 }
 ```
 
