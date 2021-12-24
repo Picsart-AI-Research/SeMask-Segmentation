@@ -33,10 +33,10 @@ See [Getting Started with MaskFormer](GETTING_STARTED.md).
 ## 3. Citing SeMask
 
 ```BibTeX
-@article{jain2022semask,
+@article{jain2021semask,
   title={SeMask: Semantically Masking Transformer Backbones for Effective Semantic Segmentation},
   author={Jitesh Jain and Anukriti Singh and Nikita Orlov and Zilong Huang and Jiachen Li and Steven Walton and Humphrey Shi},
-  journal={arXiv preprint arXiv:...},
-  year={2022}
+  journal={arXiv},
+  year={2021}
 }
 ```
