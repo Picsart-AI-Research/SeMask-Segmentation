@@ -16,13 +16,13 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 
 | Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config | Checkpoint |
 |   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |    :---:   |
-| SeMask-L Mask2Former | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.41  | 57.52 | 222M | [config](configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | TBD |
+| SeMask-L Mask2Former | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.41  | 57.52 | 222M | [config](configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1hN1I4Wv7_1FCPOsfA-5PELn6Xn3b_R8a/view?usp=sharing) |
 
 ### Cityscapes
 
 | Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config | Checkpoint |
 |   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |    :---:   |
-| SeMask-L Mask2Former | SeMask Swin-L<sup>&dagger;</sup> | 512x1024 | 83.97  | 84.98 | 222M | [config](SeMask-Mask2Former/configs/cityscapes/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_90k.yaml) | TBD |
+| SeMask-L Mask2Former | SeMask Swin-L<sup>&dagger;</sup> | 512x1024 | 83.97  | 84.98 | 222M | [config](SeMask-Mask2Former/configs/cityscapes/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_90k.yaml) | [checkpoint](https://drive.google.com/file/d/14fZQWQuBUu2qlpy3wyQ42xs6gQNg2DZX/view?usp=sharing) |
 
 ## 2. Setup Instructions
 

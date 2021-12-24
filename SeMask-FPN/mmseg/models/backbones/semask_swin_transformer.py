@@ -743,7 +743,7 @@ class SeMaskSwinTransformer(nn.Module):
         self.frozen_stages = frozen_stages
         self.n_cls = num_cls
         
-        if self.embed_dim == 192 and self.n_cls > 19:
+        if (self.embed_dim == 192 or self.embed_dim == 96) and self.n_cls > 19:
             var = 'large'
         else:
             var = None
