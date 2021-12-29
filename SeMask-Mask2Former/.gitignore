@@ -53,3 +53,4 @@ _darcs
 /snippet
 
 *.sh
+cityscapes_test/

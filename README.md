@@ -1,12 +1,12 @@
 # SeMask: Semantically Masked Transformers
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semask-semantically-masked-transformers-for/semantic-segmentation-on-ade20k-val)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k-val?p=semask-semantically-masked-transformers-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semask-semantically-masked-transformers-for-1/semantic-segmentation-on-ade20k-val)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k-val?p=semask-semantically-masked-transformers-for-1)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semask-semantically-masked-transformers-for/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=semask-semantically-masked-transformers-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semask-semantically-masked-transformers-for-1/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=semask-semantically-masked-transformers-for-1)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semask-semantically-masked-transformers-for/semantic-segmentation-on-cityscapes-val)](https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes-val?p=semask-semantically-masked-transformers-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/semask-semantically-masked-transformers-for-1/semantic-segmentation-on-cityscapes-val)](https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes-val?p=semask-semantically-masked-transformers-for-1)
 
-[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
+[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 [Jitesh Jain](https://praeclarumjj3.github.io/), [Anukriti Singh](https://anukritisinghh.github.io/), [Nikita Orlov](https://www.linkedin.com/in/nukich74/), [Zilong Huang](https://speedinghzl.github.io/), [Jiachen Li](https://chrisjuniorli.github.io/), [Steven Walton](https://stevenwalton.github.io/about/), [Humphrey Shi](https://www.humphreyshi.com/home)
 
