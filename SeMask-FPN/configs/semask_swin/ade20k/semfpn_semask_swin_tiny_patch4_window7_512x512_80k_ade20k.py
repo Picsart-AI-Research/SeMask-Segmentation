@@ -1,5 +1,5 @@
 _base_ = [
-    '../../_base_/models/semfpn_semask_swin.py', '../../_base_/datasets/semask/ade20k.py',
+    '../../_base_/models/semfpn_semask_swin.py', '../../_base_/datasets/semask/ade20k_tiny.py',
     '../../_base_/default_runtime.py', '../../_base_/schedules/schedule_80k.py'
 ]
 model = dict(
