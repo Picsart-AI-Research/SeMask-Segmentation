@@ -26,7 +26,7 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 
 - [DCNv2](DCNv2) code is compatible with [Pytorch v1.7.1](https://pytorch.org/get-started/locally/).
 
-- Follow the installation instructions for [Mask2Former](SeMask-Mask2Former/README.md).
+- Follow the installation instructions for [Mask2Former](SeMask-Mask2Former/INSTALL.md).
 
 ### Getting Started
 

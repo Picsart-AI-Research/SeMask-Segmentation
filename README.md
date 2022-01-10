@@ -27,7 +27,7 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 
 ### ADE20K
 
-<!-- | SeMask-T FPN | SeMask Swin-T | 512x512 | 42.11  | 43.16 | 35M | [config](configs/semask_swin/ade20k/semfpn_semask_swin_tiny_patch4_window7_512x512_80k_ade20k.py) | [checkpoint](https://drive.google.com/file/d/1L0daUHWQGNGCXHF-cKWEauPSyBV0GLOR/view?usp=sharing) | -->
+<!-- | SeMask-T FPN | SeMask Swin-T | 512x512 | 42.06  | 43.36 | 35M | [config](configs/semask_swin/ade20k/semfpn_semask_swin_tiny_patch4_window7_512x512_80k_ade20k.py) | [checkpoint](https://drive.google.com/file/d/1L0daUHWQGNGCXHF-cKWEauPSyBV0GLOR/view?usp=sharing) | -->
 
 | Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config | Checkpoint |
 |   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |    :---:   |
