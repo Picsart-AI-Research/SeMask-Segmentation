@@ -52,7 +52,7 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 ### Installation
 
 - We developed the codebase using [Pytorch v1.8.0](https://pytorch.org/get-started/locally/) and python 3.7.
-- Please refer to [get_started.md](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/get_started.md#installation) for installation and [dataset_prepare.md](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/dataset_prepare.md#prepare-datasets) for dataset preparation.
+- Please refer to [get_started.md](docs/get_started.md#installation) for installation and [dataset_prepare.md](docs/dataset_prepare.md#prepare-datasets) for dataset preparation.
 - **Note**: Change the paths according to the dataset location in the [dataset config files](configs/_base_/datasets/semask/).
 
 ### Inference
