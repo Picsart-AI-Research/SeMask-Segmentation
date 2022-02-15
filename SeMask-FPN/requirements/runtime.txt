@@ -5,4 +5,4 @@ timm
 icecream
 einops
 scipy
-python-opencv
+opencv-python
