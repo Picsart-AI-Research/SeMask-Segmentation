@@ -17,6 +17,7 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 <img src="images/semask.svg" alt='semask' height='600px'>
 
 ## Contents
+
 1. [Results](#1-results)
 2. [Setup Instructions](#2-setup-instructions)
 3. [Citing SeMask](#3-citing-semask)
@@ -27,18 +28,16 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 
 ### ADE20K
 
-<!-- | SeMask-T FPN | SeMask Swin-T | 512x512 | 42.06  | 43.36 | 35M | [config](configs/semask_swin/ade20k/semfpn_semask_swin_tiny_patch4_window7_512x512_80k_ade20k.py) | [checkpoint](https://drive.google.com/file/d/1L0daUHWQGNGCXHF-cKWEauPSyBV0GLOR/view?usp=sharing) | -->
-
 | Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config | Checkpoint |
 |   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |    :---:   |
-| SeMask-T FPN | SeMask Swin-T | 512x512 | 42.11  | 43.16 | 35M | [config](configs/semask_swin/ade20k/semfpn_semask_swin_tiny_patch4_window7_512x512_80k_ade20k.py) | TBD |
+| SeMask-T FPN | SeMask Swin-T | 512x512 | 42.06  | 43.36 | 35M | [config](configs/semask_swin/ade20k/semfpn_semask_swin_tiny_patch4_window7_512x512_80k_ade20k.py) | [checkpoint](https://drive.google.com/file/d/1L0daUHWQGNGCXHF-cKWEauPSyBV0GLOR/view?usp=sharing) |
 | SeMask-S FPN | SeMask Swin-S | 512x512 | 45.92  | 47.63 | 56M | [config](SeMask-FPN/configs/semask_swin/ade20k/semfpn_semask_swin_small_patch4_window7_512x512_80k_ade20k.py) | [checkpoint](https://drive.google.com/file/d/1QhDG4SyGFtWL5kP9BbBoyPqTuFu7fH_y/view?usp=sharing) |
 | SeMask-B FPN | SeMask Swin-B<sup>&dagger;</sup> | 512x512 | 49.35  | 50.98 | 96M | [config](SeMask-FPN/configs/semask_swin/ade20k/semfpn_semask_swin_base_patch4_window12_512x512_80k_ade20k.py) | [checkpoint](https://drive.google.com/file/d/1PXCEhrrUy5TJC4dUp7YDQvaapnMzGT6C/view?usp=sharing) |
 | SeMask-L FPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 51.89  | 53.52 | 211M| [config](SeMask-FPN/configs/semask_swin/ade20k/semfpn_semask_swin_large_patch4_window12_640x640_80k_ade20k.py) | [checkpoint](https://drive.google.com/file/d/1u5flfAQCiQJbMZbZPIlGUGTYBz9Ca7rE/view?usp=sharing) |
 | SeMask-L MaskFormer | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 54.75  | 56.15 | 219M | [config](SeMask-MaskFormer/configs/ade20k-150/semask_swin/maskformer_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1KgKQLGv9CcBqeEvOEDdxQ-O6lpMfHBLw/view?usp=sharing) |
 | SeMask-L Mask2Former | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.41  | 57.52 | 222M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1hN1I4Wv7_1FCPOsfA-5PELn6Xn3b_R8a/view?usp=sharing) |
-| SeMask-L Mask2Former FAPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | **56.68**  | 58.00 | 227M | [config](SeMask-FAPN/SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/fapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | TBD |
-| SeMask-L Mask2Former MSFAPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.54  | **58.22** | 224M | [config](SeMask-FAPN/SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/msfapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1w-DRGufIv3zpDO7rJFv2z5WeLx0pDTJe/view?usp=sharing) |
+| SeMask-L Mask2Former MSFaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.54  | 58.22 | 224M | [config](SeMask-FAPN/SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/msfapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1w-DRGufIv3zpDO7rJFv2z5WeLx0pDTJe/view?usp=sharing) |
+| SeMask-L Mask2Former FaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | **56.97**  | **58.22**  | 227M | [config](SeMask-FAPN/SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/fapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1DQ9KltSLDj47H2jYnCtVwyBf7KPR9SM_/view?usp=sharing) |
 
 ### Cityscapes
 
@@ -68,7 +67,7 @@ We provide the codebase with SeMask incorporated into various models. Please che
 - SeMask-FPN: [Setup Instructions](SeMask-FPN/README.md#2-setup-instructions)
 - SeMask-MaskFormer: [Setup Instructions](SeMask-MaskFormer/README.md#2-setup-instructions)
 - SeMask-Mask2Former: [Setup Instructions](SeMask-Mask2Former/README.md#2-setup-instructions)
-- SeMask-FAPN: [Setup Instructions](SeMask-FAPN/README.md#2-setup-instructions)
+- SeMask-FaPN: [Setup Instructions](SeMask-FAPN/README.md#2-setup-instructions)
 
 ## 3. Citing SeMask
 
