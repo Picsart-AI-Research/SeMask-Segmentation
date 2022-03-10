@@ -52,5 +52,5 @@ _darcs
 /models
 /snippet
 
-*.sh
 cityscapes_test/
+*.DS_Store

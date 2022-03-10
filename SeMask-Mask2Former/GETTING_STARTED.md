@@ -9,11 +9,11 @@ Please see [Getting Started with Detectron2](https://github.com/facebookresearch
 
 1. Pick a model and its config file from
   [model zoo](MODEL_ZOO.md),
-  for example, `configs/coco/panoptic-segmentation/maskformer2_R50_bs16_50ep.yaml`.
+  for example, `configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml`.
 2. We provide `demo.py` that is able to demo builtin configs. Run it with:
 ```
 cd demo/
-python demo.py --config-file ../configs/coco/panoptic-segmentation/maskformer2_R50_bs16_50ep.yaml \
+python demo.py --config-file ../configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml \
   --input input1.jpg input2.jpg \
   [--other-options]
   --opts MODEL.WEIGHTS /path/to/checkpoint_file
@@ -39,7 +39,7 @@ setup the corresponding datasets following
 then run:
 ```
 python train_net.py --num-gpus 8 \
-  --config-file configs/coco/panoptic-segmentation/maskformer2_R50_bs16_50ep.yaml
+  --config-file configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml
 ```
 
 The configs are made for 8-GPU training.
@@ -47,14 +47,14 @@ Since we use ADAMW optimizer, it is not clear how to scale learning rate with ba
 To train on 1 GPU, you need to figure out learning rate and batch size by yourself:
 ```
 python train_net.py \
-  --config-file configs/coco/panoptic-segmentation/maskformer2_R50_bs16_50ep.yaml \
+  --config-file configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml \
   --num-gpus 1 SOLVER.IMS_PER_BATCH SET_TO_SOME_REASONABLE_VALUE SOLVER.BASE_LR SET_TO_SOME_REASONABLE_VALUE
 ```
 
 To evaluate a model's performance, use
 ```
 python train_net.py \
-  --config-file configs/coco/panoptic-segmentation/maskformer2_R50_bs16_50ep.yaml \
+  --config-file configs/ade20k/semantic-segmentation/semask_swin/maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml \
   --eval-only MODEL.WEIGHTS /path/to/checkpoint_file
 ```
 For more options, see `python train_net.py -h`.
