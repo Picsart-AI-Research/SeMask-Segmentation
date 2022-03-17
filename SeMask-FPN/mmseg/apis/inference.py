@@ -10,7 +10,6 @@ from mmseg.models import build_segmentor
 
 def init_segmentor(config, checkpoint=None, device='cuda:0'):
     """Initialize a segmentor from config file.
-
     Args:
         config (str or :obj:`mmcv.Config`): Config file path or the config
             object.
@@ -44,11 +43,9 @@ class LoadImage:
 
     def __call__(self, results):
         """Call function to load images into results.
-
         Args:
             results (dict): A result dict contains the file name
                 of the image to be read.
-
         Returns:
             dict: ``results`` will be returned containing loaded image.
         """
@@ -68,12 +65,10 @@ class LoadImage:
 
 def inference_segmentor(model, img):
     """Inference image(s) with the segmentor.
-
     Args:
         model (nn.Module): The loaded segmentor.
         imgs (str/ndarray or list[str/ndarray]): Either image files or loaded
             images.
-
     Returns:
         (list[Tensor]): The segmentation result.
     """
@@ -98,9 +93,15 @@ def inference_segmentor(model, img):
     return result
 
 
-def show_result_pyplot(model, img, result, palette=None, fig_size=(15, 10)):
+def show_result_pyplot(model,
+                       img,
+                       result,
+                       palette=None,
+                       fig_size=(15, 10),
+                       opacity=0.5,
+                       title='',
+                       block=True):
     """Visualize the segmentation results on the image.
-
     Args:
         model (nn.Module): The loaded segmentor.
         img (str or np.ndarray): Image filename or loaded image.
@@ -109,10 +110,20 @@ def show_result_pyplot(model, img, result, palette=None, fig_size=(15, 10)):
             map. If None is given, random palette will be generated.
             Default: None
         fig_size (tuple): Figure size of the pyplot figure.
+        opacity(float): Opacity of painted segmentation map.
+            Default 0.5.
+            Must be in (0, 1] range.
+        title (str): The title of pyplot figure.
+            Default is ''.
+        block (bool): Whether to block the pyplot figure.
+            Default is True.
     """
     if hasattr(model, 'module'):
         model = model.module
-    img = model.show_result(img, result, palette=palette, show=False)
+    img = model.show_result(
+        img, result, palette=palette, show=False, opacity=opacity)
     plt.figure(figsize=fig_size)
     plt.imshow(mmcv.bgr2rgb(img))
-    plt.show()
+    plt.title(title)
+    plt.tight_layout()
+    plt.show(block=block)

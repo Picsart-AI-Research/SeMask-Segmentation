@@ -16,15 +16,15 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 
 | Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config | Checkpoint |
 |   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |    :---:   |
-| SeMask-L Mask2Former FAPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | **56.68**  | 58.00 | 227M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/fapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | TBD |
-| SeMask-L Mask2Former MSFAPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.54  | **58.22** | 224M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/msfapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1w-DRGufIv3zpDO7rJFv2z5WeLx0pDTJe/view?usp=sharing) |
+| SeMask-L Mask2Former MSFaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.54  | 58.22 | 224M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/msfapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1w-DRGufIv3zpDO7rJFv2z5WeLx0pDTJe/view?usp=sharing) |
+| SeMask-L Mask2Former FaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | **56.97**  | **58.22**  | 227M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/fapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1DQ9KltSLDj47H2jYnCtVwyBf7KPR9SM_/view?usp=sharing) |
 
 
 ## 2. Setup Instructions
 
 ### Installation
 
-- [DCNv2](DCNv2) code is compatible with [Pytorch v1.7.1](https://pytorch.org/get-started/locally/).
+- Build the [DCNv2](DCNv2) module which is compatible with [Pytorch v1.7.1](https://pytorch.org/get-started/locally/).
 
 - Follow the installation instructions for [Mask2Former](SeMask-Mask2Former/INSTALL.md).
 
