@@ -16,8 +16,8 @@ This repo contains the code for our paper **SeMask: Semantically Masked Transfor
 
 | Method | Backbone | Crop Size | mIoU | mIoU (ms+flip) | #params | config | Checkpoint |
 |   :---:| :---:    | :---:     | :---:| :---:          | :---:   | :---:  |    :---:   |
-| SeMask-L Mask2Former MSFaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.54  | 58.22 | 224M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/msfapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1w-DRGufIv3zpDO7rJFv2z5WeLx0pDTJe/view?usp=sharing) |
-| SeMask-L Mask2Former FaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | **56.97**  | **58.22**  | 227M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/fapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1DQ9KltSLDj47H2jYnCtVwyBf7KPR9SM_/view?usp=sharing) |
+| SeMask-L Mask2Former FaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | 56.88  | **58.25**  | 227M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/fapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1njy_RSEXiyx29O_xFraHqsItTHOtw_qc/view?usp=sharing) |
+| SeMask-L Mask2Former MSFaPN | SeMask Swin-L<sup>&dagger;</sup> | 640x640 | **57.00**  | **58.25** | 224M | [config](SeMask-Mask2Former/configs/ade20k/semantic-segmentation/semask_swin/msfapn_maskformer2_semask_swin_large_IN21k_384_bs16_160k_res640.yaml) | [checkpoint](https://drive.google.com/file/d/1DQ9KltSLDj47H2jYnCtVwyBf7KPR9SM_/view?usp=sharing) |
 
 
 ## 2. Setup Instructions
