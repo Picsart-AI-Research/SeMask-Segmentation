@@ -120,7 +120,7 @@ def show_result_pyplot(model,
     """
     if hasattr(model, 'module'):
         model = model.module
-    img = model.show_result(
+    img = model.show_inference_result(
         img, result, palette=palette, show=False, opacity=opacity)
     plt.figure(figsize=fig_size)
     plt.imshow(mmcv.bgr2rgb(img))
